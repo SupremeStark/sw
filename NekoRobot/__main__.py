@@ -149,7 +149,7 @@ buttons = [
             text="🚑 Support", url=f"https://telegram.dog/{SUPPORT_CHAT}"
         ),
         InlineKeyboardButton(
-            text="📢 Updates", url="https://telegram.dog/WoFBotsSupport"
+            text="WOF🕊️", url="https://telegram.dog/WingsOfFreedom2"
         ),
     ],
 ]
@@ -673,13 +673,13 @@ def donate(update: Update, context: CallbackContext) -> None:
             )
 
             update.effective_message.reply_text(
-                text="I'm free for everyone❤️\njust donate by subs channel, Don't forget to join the support group.",
+                text="I'm free for everyone❤️\njust add me to your channel, Don't forget to join the support group.",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton(
-                                text="📢 Updates",
-                                url="https://telegram.dog/Programmer_Updates",
+                                text="WOF🕊️",
+                                url="https://telegram.dog/WingsOfFreedom2",
                             ),
                             InlineKeyboardButton(
                                 text="🚑 Support",
