@@ -121,7 +121,7 @@ NEKO_STICKERS = (
 )
 
 PM_START_TEXT = """
-────「 [{}](https://telegra.ph/file/d80bb89c4aca2a87419b7.jpg) 」────
+────「 [{}](https://telegra.ph/file/56f8551b0003ba1001092.jpg) 」────
 *Hola! {},*
 *Meow Meow, Don't Touch Me Without My Permission!*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
@@ -149,7 +149,7 @@ buttons = [
             text="🚑 Support", url=f"https://telegram.dog/{SUPPORT_CHAT}"
         ),
         InlineKeyboardButton(
-            text="📢 Updates", url="https://telegram.dog/Programmer_Updates"
+            text="📢 Updates", url="https://telegram.dog/WoFBotsSupport"
         ),
     ],
 ]
