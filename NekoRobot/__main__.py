@@ -123,12 +123,12 @@ NEKO_STICKERS = (
 PM_START_TEXT = """
 ────「 [{}](https://telegra.ph/file/56f8551b0003ba1001092.jpg) 」────
 *Hola! {},*
-*Meow Meow, Don't Touch Me Without My Permission!*
+*Waakku Waakku, My Father Is Secret Agent Don't Tell Anybody Its a Secret!*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 ❍ *Uptime:* `{}`
 ❍ `{}` *Users, Across* `{}` *Chats.*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
-➛ Try The Guidelines Button Below To Know My Abilities ××
+➛ Try The Help Button Below To Know My Abilities ××
 """
 
 buttons = [
