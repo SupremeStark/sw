@@ -45,7 +45,7 @@ from NekoRobot.modules.sql.afk_sql import check_afk_status, is_afk
 from NekoRobot.modules.sql.global_bans_sql import is_user_gbanned
 from NekoRobot.modules.sql.users_sql import get_user_num_chats
 
-NEKO_IMG = "https://telegra.ph/file/a21731c0c4c7f27a3ec16.jpg"
+NEKO_IMG = "https://telegra.ph/file/a048c4fa0bdb2738fff69.jpg"
 
 
 def no_by_per(totalhp, percentage):
@@ -316,20 +316,25 @@ def info(update: Update, context: CallbackContext):
     except:
         pass  # don't crash if api is down somehow...
 
+    disaster_level_present = False
+
     if user.id == OWNER_ID:
-        text += "\n\nThe Disaster level of this person is 'God'."
+        text += "\n\n• Disaster Level: God⚡"
     elif user.id in DEV_USERS:
-        text += "\n\nThis user is member of 'Heros Association'."
+        text += "\n\n• Disaster Level: Master👨‍🏫"
+        disaster_level_present = True
     elif user.id in DRAGONS:
-        text += "\n\nThe Disaster level of this person is 'Dragon'."
+        text += "\n\n• Disaster Level: Dragon🐉"
+        disaster_level_present = True
     elif user.id in DEMONS:
-        text += "\n\nThe Disaster level of this person is 'Demon'."
+        text += "\n\n• Disaster Level: Demon😈"
+        disaster_level_present = True
     elif user.id in TIGERS:
-        text += "\n\nThe Disaster level of this person is 'Tiger'."
+        text += "\n\n• Disaster Level: Tiger🐯"
+        disaster_level_present = True
     elif user.id in WOLVES:
-        text += "\n\nThe Disaster level of this person is 'Wolf'."
-    elif user.id == 5561111332:
-        text += "\n\nSenorita Is Girlfriend Of @Its_IZ_PRINCE_xD."
+        text += "\n\n• Disaster Level: Wolf🦊"
+        disaster_level_present = True
 
     try:
         user_member = chat.get_member(user.id)
@@ -462,41 +467,20 @@ def stats(update, context):
             status
             + "\n*Bot statistics*:\n"
             + "\n".join([mod.__stats__() for mod in STATS])
-            + f"\n\n[✦ Support](https://t.me/{SUPPORT_CHAT}) | [✦ Updates](https://t.me/Programmer_Updates)\n\n"
-            + "\n╘══「 by [Programmer • Network](https://t.me/Programmer_Network) 」\n",
+            + f"\n\n[✦ Support](https://t.me/{SUPPORT_CHAT}) | [✦ Updates](https://t.me/WOFBotsUpdates)\n\n"
+            + "\n╘══「 by [•Network](https://t.me/SurveyCorpsXteam) 」\n",
             parse_mode=ParseMode.MARKDOWN,
-            reply_markup=InlineKeyboardMarkup(
-                [
-                    [
-                        InlineKeyboardButton(
-                            text="Repo", url="github.com/Awesome-Prince/NekoRobot-3"
-                        )
-                    ]
-                ]
-            ),
         )
     except BaseException:
         update.effective_message.reply_text(
-            (
                 (
                     (
                         "\n*Bot statistics*:\n"
                         + "\n".join(mod.__stats__() for mod in STATS)
                     )
-                    + f"\n\n✦ [Support](https://t.me/{SUPPORT_CHAT}) | ✦ [Updates](https://t.me/Programmer_Updates)\n\n"
-                )
-                + "╘══「 by [Programmer • Network](https://t.me/Programmer_Network) 」\n"
-            ),
+                    + f"\n\n✦ [Support](https://t.me/{SUPPORT_CHAT}) | ✦ [Updates](https://t.me/WOFBotsUpdates)\n\n"
+                ),
             parse_mode=ParseMode.MARKDOWN,
-            reply_markup=InlineKeyboardMarkup(
-                [
-                    [
-                        InlineKeyboardButton(
-                            text="Repo", url="github.com/Awesome-Prince/NekoRobot-3"
-                        )
-                    ]
-                ]
-            ),
         )
 
 
