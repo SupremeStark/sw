@@ -248,7 +248,7 @@ def new_member(update: Update, context: CallbackContext):
                 update.effective_message.reply_photo(
                     WAIFUS_IMG,
                     caption="Hey {}, I'm {}! Thank you for adding me to {}\n"
-                    "Join support and channel update with clicking button below!".format(
+                    "Join support and update groups with clicking button below!".format(
                         user.first_name, context.bot.first_name, chat.title
                     ),
                     reply_to_message_id=reply,
@@ -258,11 +258,11 @@ def new_member(update: Update, context: CallbackContext):
                             [
                                 InlineKeyboardButton(
                                     text="Support🚑",
-                                    url=f"https://t.me/ProgrammerSupport",
+                                    url=f"https://t.me/WoFBotsSupport",
                                 ),
                                 InlineKeyboardButton(
-                                    text="Updates🛰️",
-                                    url="https://t.me/Programmer_Updates",
+                                    text="WOF 🕊️",
+                                    url="https://t.me/WingsOfFreedom2",
                                 ),
                             ]
                         ]
