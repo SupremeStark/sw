@@ -659,7 +659,7 @@ async def drawText(image_path, text):
             u_width, u_height = draw.textsize(l_text, font=m_font)
             draw.text(
                 xy=(
-                    ((i_width - u_width) / 2) - 1,
+                    ((i_width - u_width) / 2) - 2,
                     i_height - u_height - int((20 / 640) * i_width),
                 ),
                 text=l_text,
@@ -668,7 +668,7 @@ async def drawText(image_path, text):
             )
             draw.text(
                 xy=(
-                    ((i_width - u_width) / 2) + 1,
+                    ((i_width - u_width) / 2) + 2,
                     i_height - u_height - int((20 / 640) * i_width),
                 ),
                 text=l_text,
@@ -678,7 +678,7 @@ async def drawText(image_path, text):
             draw.text(
                 xy=(
                     (i_width - u_width) / 2,
-                    (i_height - u_height - int((20 / 640) * i_width)) - 1,
+                    (i_height - u_height - int((20 / 640) * i_width)) - 2,
                 ),
                 text=l_text,
                 font=m_font,
@@ -688,7 +688,7 @@ async def drawText(image_path, text):
             draw.text(
                 xy=(
                     (i_width - u_width) / 2,
-                    (i_height - u_height - int((20 / 640) * i_width)) + 1,
+                    (i_height - u_height - int((20 / 640) * i_width)) + 2,
                 ),
                 text=l_text,
                 font=m_font,
