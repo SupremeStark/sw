@@ -313,8 +313,8 @@ def start(update: Update, context: CallbackContext):
                             url=f"https://telegram.dog/{SUPPORT_CHAT}",
                         ),
                         InlineKeyboardButton(
-                            text="📢 Updates",
-                            url="https://telegram.dog/Programmer_Updates",
+                            text="WOF 🕊️",
+                            url="https://telegram.dog/WingsOfFreedom2",
                         ),
                     ]
                 ]
