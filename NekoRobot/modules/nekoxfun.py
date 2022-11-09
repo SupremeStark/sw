@@ -179,10 +179,10 @@ def feed(update, context):
 
 
 
- def bjgif(update, context):
-    msg = update.effective_message
-    target = "bj"
-    msg.reply_video(nekos.img(target))
+# def bjgif(update, context):
+#    msg = update.effective_message
+#    target = "bj"
+#    msg.reply_video(nekos.img(target))
 
 
 #
