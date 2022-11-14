@@ -1,3 +1,22 @@
+Skip to content
+VegetaxYadav
+/
+NekoRobot-3
+Public template
+forked from Awesome-Prince/NekoRobot-3
+Code
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+NekoRobot-3/NekoRobot/modules/image_reverse_search.py
+@Awesome-Prince
+Awesome-Prince {Initial Commit v3}
+ 2 contributors
+522 lines (465 sloc)  17.1 KB
 """
 BSD 2-Clause License
 Copyright (C) 2017-2019, Paul Larsen
@@ -467,14 +486,6 @@ def ParseSauce(googleurl):
         )
         results["similar_images"] = url
 
-        buttons = [
-    [
-        InlineKeyboardButton(
-            text=f"Similar Images",
-            url=f"url",
-        )
-    ],
-    
     for best_guess in soup.findAll("div", attrs={"class": "r5a77d"}):
         results["best_guess"] = best_guess.get_text()
 
@@ -528,3 +539,18 @@ __help__ = """
  ❍ `/pp` : Please reply to a sticker, or an image to search it!
  ❍ `/reverse` : Please reply to a sticker, or an image to search it!
 """
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+NekoRobot-3/image_reverse_search.py at main · VegetaxYadav/NekoRobot-3
