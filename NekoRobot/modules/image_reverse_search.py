@@ -467,6 +467,14 @@ def ParseSauce(googleurl):
         )
         results["similar_images"] = url
 
+        buttons = [
+    [
+        InlineKeyboardButton(
+            text=f"Similar Images",
+            url=f"url",
+        )
+    ],
+    
     for best_guess in soup.findAll("div", attrs={"class": "r5a77d"}):
         results["best_guess"] = best_guess.get_text()
 
