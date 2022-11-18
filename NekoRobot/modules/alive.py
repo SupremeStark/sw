@@ -82,8 +82,8 @@ async def hmm(yes):
     NekoX += f"Thanks For Adding Me In {yes.chat.title} Waakku Waakku 🤗"
     BUTTON = [
         [
-            Button.url("【► Help ◄】", f"https://t.me/{BOT_USERNAME}?start=help"),
-            Button.url("【► Support ◄】", f"https://t.me/{SUPPORT_CHAT}"),
+            Button.url("【🔙 Help 】", f"https://t.me/{BOT_USERNAME}?start=help"),
+            Button.url("【🚑 Support 】", f"https://t.me/{SUPPORT_CHAT}"),
         ]
     ]
     on = await neko.send_file(yes.chat_id, file=file2, caption=NekoX, buttons=BUTTON)
