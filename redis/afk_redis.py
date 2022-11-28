@@ -1,6 +1,6 @@
 
 
-from AsukaRobot import REDIS
+from NekoRobot import REDIS
 
 
 # AFK
