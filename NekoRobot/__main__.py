@@ -287,11 +287,7 @@ def start(update: Update, context: CallbackContext):
 
             elif args[0][1:].isdigit() and "rules" in IMPORTED:
                 IMPORTED["rules"].send_rules(update, args[0], from_pm=True)
-
-        
-            
-             
-                timeout=60,
+            timeout=60,
             )
             first_name = update.effective_user.first_name
             update.effective_message.reply_text(
