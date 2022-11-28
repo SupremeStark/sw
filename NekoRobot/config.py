@@ -38,7 +38,7 @@ class Config(object):
     REDIS_URL = "redis://default:6vsajwd6wq3lNI7T3zMIpltTrU040DJC@redis-19248.c16.us-east-1-3.ec2.cloud.redislabs.com:19248"
     LOAD = []
     ARQ_API_KEY = "arq.hamker.dev"
-    ARQ_API_KEY = "UMPYGF-MVNLVW-RTNXKA-FJWOUH-ARQ"
+    ARQ_API_KEY = "DYIEDF-OHGOYY-UHZTFX-HXDDAU-ARQ"
     ERROR_LOGS = -1001813334646
     BOT_NAME = "Scarlet Witch"
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
