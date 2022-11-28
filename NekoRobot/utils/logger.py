@@ -38,7 +38,7 @@ class InterceptHandler(logging.Handler):
 
 
 logging.basicConfig(handlers=[InterceptHandler()], level=logging.INFO)
-log = logging.getLogger(name)
+log = logging.getLogger(__name__)
 logger.add(
     "logs/bot.log",
     rotation="1 d",
