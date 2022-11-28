@@ -172,10 +172,10 @@ HELP_STRINGS = """
 
 GROUP_START_IMG = (
     "https://graph.org/file/c27ad2f09b57d13975df8.jpg"
-    "https://te.legra.ph/file/6e39ca276b9598dacc3d2.jpg",
-    "https://te.legra.ph/file/0acd9c669003fda74b64c.jpg",
-    "https://te.legra.ph/file/3558a01b7ac1eee644cb8.jpg",
-    "https://te.legra.ph/file/cba58870ae0b737a1ad0c.jpg",
+    "https://graph.org/file/929e89ca5e44c26ebab4c.jpg",
+    "https://graph.org/file/51f1c6a716c1b205b3f42.jpg",
+    "https://graph.org/file/340aa36e33c5adc0a1765.jpg",
+    "https://graph.org/file/e0d0dd57cfbf61b747c2c.jpg",
 )
 
 DONATE_STRING = """❂ I'm Free for Everyone ❂"""
