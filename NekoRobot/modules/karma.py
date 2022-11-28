@@ -40,8 +40,8 @@ from NekoRobot.modules.mongo.karma_mongo import (
 )
 from NekoRobot.utils.errors import capture_err
 
-regex_upvote = r"^((?i)\+|\+\+|\+1|thx|tnx|ty|thank you|thanx|thanks|pro|cool|good|👍|nice|noice|piro)$"
-regex_downvote = r"^(\-|\-\-|\-1|👎|noob|Noob|gross|fuck off)$"
+regex_upvote = r"^((?i)\+|\+\+|\+1|thx|tnx|ty|thank you|thanx|Thanku|thanks|pro|cool|good|👍|nice|noice|piro)$"
+regex_downvote = r"^(\-|\-\-|\-1|👎|noob|Noob|gross|chutiya|Bitch|fuck off)$"
 
 karma_positive_group = 3
 karma_negative_group = 4
@@ -93,7 +93,7 @@ async def upvote(_, message):
         new_karma = {"karma": karma}
         await update_karma(chat_id, await int_to_alpha(user_id), new_karma)
         await message.reply_text(
-            f"ɪɴᴄʀᴇᴍᴇɴᴛᴇᴅ ᴋᴀʀᴍᴀ  ᴏғ +1 {user_mention} \nᴛᴏᴛᴀʟ ᴘᴏɪɴᴛs: {karma}"
+            f"Incremented karma of +1 {user_mention} \nᴛᴏᴛᴀʟ ᴘᴏɪɴᴛs: {karma}"
         )
 
 
@@ -128,7 +128,7 @@ async def downvote(_, message):
         new_karma = {"karma": karma}
         await update_karma(chat_id, await int_to_alpha(user_id), new_karma)
         await message.reply_text(
-            f"ᴅᴇᴄʀᴇᴍᴇɴᴛᴇᴅ ᴋᴀʀᴍᴀ ᴏғ -1 {user_mention}  \nᴛᴏᴛᴀʟ ᴘᴏɪɴᴛs: {karma}"
+            f"Decremented karma of -1 {user_mention}  \nᴛᴏᴛᴀʟ ᴘᴏɪɴᴛs: {karma}"
         )
 
 
