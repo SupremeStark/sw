@@ -121,9 +121,15 @@ NEKO_STICKERS = (
 )
 
 PM_START_TEXT = """
-────「 [{}](https://telegra.ph/file/56f8551b0003ba1001092.jpg) 」────
-*Hola! {},*
-*Waakku Waakku, My Father Is Secret Agent Don't Tell Anybody Its a Secret!*
+────「 [{}](https://graph.org/file/b1faed61b726848ae6cf2.jpg 」────
+
+*Hey✨!,My Name Is Scarlet Witch🪄
+
+They Call Me Mommy For a Reason.
+
+I Am A Group Management Bot, Built For Nerds.
+
+I Am Specialized In Managing Groups For Communities💫*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 ❍ *Uptime:* `{}`
 ❍ `{}` *Users, Across* `{}` *Chats.*
