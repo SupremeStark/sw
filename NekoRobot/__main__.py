@@ -141,21 +141,15 @@ buttons = [
     [
         InlineKeyboardButton(
             text=f"Add {BOT_NAME} To Your Group",
-            url=f"https://telegram.dog/{Scarlet_Witchh_Bot}?startgroup=true",
+            url=f"https://telegram.dog/{BOT_USERNAME}?startgroup=true",
         )
     ],
     [
         InlineKeyboardButton(text="📓 Help", callback_data="help_back"),
-        InlineKeyboardButton(
-            text="Source 🌐", url="https://telegra.ph/वजट-यदव-11-07"
-        ),
     ],
     [
         InlineKeyboardButton(
             text="🚑 Support", url=f"https://telegram.dog/{SUPPORT_CHAT}"
-        ),
-        InlineKeyboardButton(
-            text="WOF🕊️", url="https://telegram.dog/WingsOfFreedom2"
         ),
     ],
 ]
