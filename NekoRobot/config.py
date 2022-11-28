@@ -19,8 +19,8 @@ class Config(object):
     TOKEN = "5374038266:AAGigEuxs92lEDSlfS4CPjITjjnI5l7ddSc"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     STRING_SESSION = ""
     MONGO_DB = "Shikimori"
-    TEMP_DOWNLOAD_DIRECTORY= "./"
-    MONGO_DB_URI = "mongodb+srv://eren:eren@cluster0.aor5rcv.mongodb.net/?retryWrites=true&w=majority"
+    TEMP_DOWNLOAD_DImongodb+srv://toaa:toaa69@cluster0.eduoooo.mongodb.net/?retryWrites=true&w=majorityRECTORY= "./"
+    MONGO_DB_URI = ""
     OWNER_ID = 5667156680  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "M_TOAA"
     HELP_IMG = "https://telegra.ph/file/717e1127686f864b5793c.jpg"
