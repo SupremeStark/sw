@@ -171,7 +171,7 @@ HELP_STRINGS = """
 """
 
 GROUP_START_IMG = (
-    "https://te.legra.ph/file/e351e10dd7dc63420bb98.jpg",
+    "https://graph.org/file/c27ad2f09b57d13975df8.jpg"
     "https://te.legra.ph/file/6e39ca276b9598dacc3d2.jpg",
     "https://te.legra.ph/file/0acd9c669003fda74b64c.jpg",
     "https://te.legra.ph/file/3558a01b7ac1eee644cb8.jpg",
