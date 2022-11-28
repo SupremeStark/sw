@@ -6,22 +6,22 @@ from NekoRobot.modules.sql import BASE, SESSION
 
 
 class AFK(BASE):
-    tablename = "afk_users"
+    __tablename__ = "afk_users"
 
     user_id = Column(BigInteger, primary_key=True)
     is_afk = Column(Boolean)
     reason = Column(UnicodeText)
 
-    def init(self, user_id, reason="", is_afk=True):
+    def __init__(self, user_id, reason="", is_afk=True):
         self.user_id = user_id
         self.reason = reason
         self.is_afk = is_afk
 
-    def repr(self):
+    def __repr__(self):
         return "afk_status for {}".format(self.user_id)
 
 
-AFK.table.create(checkfirst=True)
+AFK.__table__.create(checkfirst=True)
 INSERTION_LOCK = threading.RLock()
 
 AFK_USERS = {}
