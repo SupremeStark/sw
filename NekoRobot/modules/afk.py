@@ -20,7 +20,7 @@ from NekoRobot.modules.helper_funcs.readable_time import get_readable_time
 AFK_GROUP = 7
 AFK_REPLY_GROUP = 8
 
-AFKVID = "https://telegra.ph/file/c49829f9f5d65947cbc7e.mp4"
+AFKVID = "https://graph.org/file/2887877854c1e347ffe5f.mp4"
 
 
 def afk(update, context):
