@@ -121,7 +121,7 @@ NEKO_STICKERS = (
 )
 
 PM_START_TEXT = """
-────「 [{}](https://graph.org/file/b1faed61b726848ae6cf2.jpg 」────
+────「 [{}](https://graph.org/file/b1faed61b726848ae6cf2.jpg) 」────
 
 *Hey✨!,My Name Is Scarlet Witch🪄
 
