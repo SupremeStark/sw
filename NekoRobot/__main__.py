@@ -171,11 +171,11 @@ HELP_STRINGS = """
 """
 
 GROUP_START_IMG = (
-    "https://graph.org/file/c27ad2f09b57d13975df8.jpg"
-    "https://graph.org/file/929e89ca5e44c26ebab4c.jpg",
-    "https://graph.org/file/51f1c6a716c1b205b3f42.jpg",
-    "https://graph.org/file/340aa36e33c5adc0a1765.jpg",
-    "https://graph.org/file/e0d0dd57cfbf61b747c2c.jpg",
+    "https://graph.org/file/b1faed61b726848ae6cf2.jpg"
+    
+    
+    
+    
 )
 
 DONATE_STRING = """❂ I'm Free for Everyone ❂"""
