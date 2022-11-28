@@ -37,6 +37,7 @@ class Config(object):
     DB_URL = "postgres://vegudydt:j3iKb5MhoJ1LgKJL32mzAuxem9IF4GEm@lucky.db.elephantsql.com/vegudydt"
     REDIS_URL = "redis://default:6vsajwd6wq3lNI7T3zMIpltTrU040DJC@redis-19248.c16.us-east-1-3.ec2.cloud.redislabs.com:19248"
     LOAD = []
+    BOT_USERNAME = "Scarlet_Witchh_Bot"
     ARQ_API_URL = "arq.hamker.dev"
     ARQ_API_KEY = "DYIEDF-OHGOYY-UHZTFX-HXDDAU-ARQ"
     ERROR_LOGS = -1001813334646
