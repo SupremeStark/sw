@@ -14,9 +14,9 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 14980683  # integer value, dont use ""
-    API_HASH = "5bc2e9cd58092119e741c1f2b545c1bf"
-    TOKEN = "5722771565:AAGif5G3SyWr7PB0vQ9yGL9WiXJbpNR604c"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    API_ID = 17441778   # integer value, dont use ""
+    API_HASH = "d221a3858d847abbec41da95840b4a64"
+    TOKEN = "5374038266:AAGigEuxs92lEDSlfS4CPjITjjnI5l7ddSc"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     STRING_SESSION = ""
     MONGO_DB = "Shikimori"
     TEMP_DOWNLOAD_DIRECTORY= "./"
