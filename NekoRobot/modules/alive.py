@@ -27,10 +27,8 @@ import asyncio
 import datetime
 from datetime import datetime
 
-from pyrogram import __version__ as pyrover
 from telegram import __version__ as ptb
 from telethon import Button
-from telethon import __version__ as tlhver
 
 from NekoRobot import BOT_NAME, BOT_USERNAME, SUPPORT_CHAT
 from NekoRobot import tbot as neko
@@ -38,7 +36,11 @@ from NekoRobot.events import register
 
 edit_time = 5
 """ =======================Neko====================== """
-file1 = "https://graph.org/file/f292aa8dc6e1f9434aea0.mp4"
+file1 = "https://telegra.ph/file/da817befa131f7a5f533e.jpg"
+file2 = "https://telegra.ph/file/a048c4fa0bdb2738fff69.jpg"
+file3 = "https://telegra.ph/file/a62029574186f318c6529.jpg"
+file4 = "https://telegra.ph/file/1368985b1a20870949673.jpg"
+file5 = "https://telegra.ph/file/7dcde6edba760c620e91f.jpg"
 """ =======================Neko====================== """
 
 START_TIME = datetime.utcnow()
@@ -69,37 +71,13 @@ async def hmm(yes):
     current_time = datetime.utcnow()
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
-    NekoX = f"** ⊙ Hey [{yes.sender.first_name}](tg://user?id={yes.sender.id}) I'm {BOT_NAME} **\n\n"
-    NekoX += f"**⊙ My Uptime :** `{uptime}`\n\n"
-    NekoX += f"**⊙ Telethon Version :** `{tlhver}`\n\n"
-    NekoX += f"**⊙ Pyrogram Version :** `{pyrover}`\n\n"
-    NekoX += "**⊙ My God :** [वेजीटा यादव](https://t.me/Vegeta_Yadav) "
-    NekoX += f"Thanks For Adding Me In {yes.chat.title} Waakku Waakku 🤗"
+    NekoX = f"**☘️I'm {BOT_NAME}\n👄I'm Working Perfectly **\n\n"
+    NekoX += f"**✨My Uptime :** `{uptime}`\n\n"
+    NekoX += f"**👺My Creator:** [TOAA](https://t.me/M_TOAA)"
     BUTTON = [
         [
-            Button.url("【🔙 Help 】", f"https://t.me/{BOT_USERNAME}?start=help"),
-            Button.url("【🚑 Support 】", f"https://t.me/{SUPPORT_CHAT}"),
+            Button.url("♻️Help", f"https://t.me/{BOT_USERNAME}?start=help"),
+            Button.url("🌱Support", f"https://t.me/{SUPPORT_CHAT}"),
         ]
     ]
-    on = await neko.send_file(yes.chat_id, file=file2, caption=NekoX, buttons=BUTTON)
-
-    await asyncio.sleep(edit_time)
-    ok = await neko.edit_message(yes.chat_id, on, file=file3, buttons=BUTTON)
-
-    await asyncio.sleep(edit_time)
-    ok2 = await neko.edit_message(yes.chat_id, ok, file=file4, buttons=BUTTON)
-
-    await asyncio.sleep(edit_time)
-    ok3 = await neko.edit_message(yes.chat_id, ok2, file=file1, buttons=BUTTON)
-
-    await asyncio.sleep(edit_time)
-    ok4 = await neko.edit_message(yes.chat_id, ok3, file=file2, buttons=BUTTON)
-
-    await asyncio.sleep(edit_time)
-    ok5 = await neko.edit_message(yes.chat_id, ok4, file=file1, buttons=BUTTON)
-
-    await asyncio.sleep(edit_time)
-    ok6 = await neko.edit_message(yes.chat_id, ok5, file=file3, buttons=BUTTON)
-
-    await asyncio.sleep(edit_time)
-    ok7 = await neko.edit_message(yes.chat_id, ok6, file=file4, buttons=BUTTON)
+    await neko.send_file(yes.chat_id, file="https://graph.org/file/f292aa8dc6e1f9434aea0.mp4",caption=NekoX, buttons=BUTTON)
