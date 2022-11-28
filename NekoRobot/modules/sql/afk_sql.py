@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Column, UnicodeText, Boolean, BigInteger
 
-from Scarlet witch bot.modules.sql import BASE, SESSION
+from NekoRobot.modules.sql import BASE, SESSION
 
 
 class AFK(BASE):
