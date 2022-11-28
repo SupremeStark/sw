@@ -16,31 +16,31 @@ class Config(object):
 
     API_ID = 17441778   # integer value, dont use ""
     API_HASH = "d221a3858d847abbec41da95840b4a64"
-    TOKEN = "5374038266:AAGigEuxs92lEDSlfS4CPjITjjnI5l7ddSc"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    TOKEN = "5374038266:AAGeg2_tkrJeC76hwDw4u5NWvVdpEDAY2sE"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     STRING_SESSION = ""
     MONGO_DB = "Shikimori"
     TEMP_DOWNLOAD_DIRECTORY= "./"
-    MONGO_DB_URI = "mongodb+srv://eren:eren@cluster0.aor5rcv.mongodb.net/?retryWrites=true&w=majority"
-    OWNER_ID = 5667156680  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    MONGO_DB_URI = "mongodb+srv://toaa:toaa69@cluster0.eduoooo.mongodb.net/?retryWrites=true&w=majority"
+    OWNER_ID = 1347884554  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "M_TOAA"
-    HELP_IMG = "https://telegra.ph/file/717e1127686f864b5793c.jpg"
-    SUPPORT_CHAT = "ZeroTwoMusic"  # Your own group for support, do not add the @
+    HELP_IMG = "https://graph.org/file/1f3a67933a0d1d9135990.jpg"
+    SUPPORT_CHAT = "scarletwitchsupport"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001801733203
+        -1001676717902
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001609507640
+        -1001676717902
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "postgres://bfkskrbbdynjrg:834c5e7774030cb4c00bea8049d32b96d555ae0b3078a751b243adc31e3d5ed5@ec2-3-89-230-115.compute-1.amazonaws.com:5432/dfp627imqb2maa"  # needed for any database modules
-    DB_URL = "postgres://pdepdgek:YLC10ZEJAjCC23wVGoNaL2qPsKMcsO6x@lucky.db.elephantsql.com/pdepdgek"
+    SQLALCHEMY_DATABASE_URI = "postgres://vqemfmub:hiaYxgZNcTlQ4AuEHAwvaq-2lI0_L2Y4@peanut.db.elephantsql.com/vqemfmub"  # needed for any database modules
+    DB_URL = "postgres://vegudydt:j3iKb5MhoJ1LgKJL32mzAuxem9IF4GEm@lucky.db.elephantsql.com/vegudydt"
     REDIS_URL = "redis://default:6vsajwd6wq3lNI7T3zMIpltTrU040DJC@redis-19248.c16.us-east-1-3.ec2.cloud.redislabs.com:19248"
     LOAD = []
     ARQ_API_KEY = "arq.hamker.dev"
     ARQ_API_KEY = "UMPYGF-MVNLVW-RTNXKA-FJWOUH-ARQ"
-    ERROR_LOGS = -1001846183276
-    BOT_NAME = "nezuko"
+    ERROR_LOGS = -1001813334646
+    BOT_NAME = "Scarlet Witch"
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
     INFOPIC = True
