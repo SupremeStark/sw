@@ -33,8 +33,8 @@ class Config(object):
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "postgres://vqemfmub:hiaYxgZNcTlQ4AuEHAwvaq-2lI0_L2Y4@peanut.db.elephantsql.com/vqemfmub"  # needed for any database modules
-    DB_URL = "postgres://vegudydt:j3iKb5MhoJ1LgKJL32mzAuxem9IF4GEm@lucky.db.elephantsql.com/vegudydt"
+    SQLALCHEMY_DATABASE_URI = "postgres://vegudydt:j3iKb5MhoJ1LgKJL32mzAuxem9IF4GEm@lucky.db.elephantsql.com/vegudydt"  # needed for any database modules
+    DB_URL = "postgres://vqemfmub:hiaYxgZNcTlQ4AuEHAwvaq-2lI0_L2Y4@peanut.db.elephantsql.com/vqemfmub"
     REDIS_URL = "redis://default:6vsajwd6wq3lNI7T3zMIpltTrU040DJC@redis-19248.c16.us-east-1-3.ec2.cloud.redislabs.com:19248"
     LOAD = []
     BOT_USERNAME = "Scarlet_Witchh_Bot"
