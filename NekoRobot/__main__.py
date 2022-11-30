@@ -123,7 +123,7 @@ NEKO_STICKERS = (
 PM_START_TEXT = """
 ────「 [{}](https://graph.org/file/c27ad2f09b57d13975df8.jpg) 」────
 
-*Hey{}✨!,My Name Is Scarlet Witch🪄
+*Hey {}✨!,My Name Is Scarlet Witch🪄
 They Call Me Mommy For a Reason.
 I Am A Group Management Bot, Built For Nerds.
 I Am Specialized In Managing Groups For Communities💫*
