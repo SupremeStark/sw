@@ -257,12 +257,12 @@ def new_member(update: Update, context: CallbackContext):
                         [
                             [
                                 InlineKeyboardButton(
-                                    text="Support🚑",
-                                    url=f"https://t.me/WoFBotsSupport",
+                                    text="",
+                                    url=f"",
                                 ),
                                 InlineKeyboardButton(
-                                    text="WOF 🕊️",
-                                    url="https://t.me/WingsOfFreedom2",
+                                    text="",
+                                    url="",
                                 ),
                             ]
                         ]
