@@ -257,8 +257,8 @@ def new_member(update: Update, context: CallbackContext):
                         [
                             [
                                 InlineKeyboardButton(
-                                    text="",
-                                    url=f"",
+                                    text="Support 🚑",
+                                    url=f"https://t.me/scarletwitchsupport",
                                 ),
                                 InlineKeyboardButton(
                                     text="",
