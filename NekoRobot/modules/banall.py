@@ -20,7 +20,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 from telethon.tl.types import ChatBannedRights
 from telethon.tl.functions.channels import EditBannedRequest
 from telethon import events
-from NekoRobot import tbot, DEV_USERS
+from NekoRobot import tbot, DRAGONS
 
 BANNED_RIGHTS = ChatBannedRights(
     until_date=None,
@@ -39,7 +39,7 @@ async def banall(hmm):
     if not hmm.is_group:
         return
     if hmm.is_group:
-        if hmm.sender_id not in DEV_USERS:
+        if hmm.sender_id not in DRAGONS:
             return
     async for user in tbot.iter_participants(hmm.chat_id):
         if not user.deleted:
