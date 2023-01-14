@@ -129,7 +129,6 @@ I Am A Group Management Bot, Built For Nerds.
 I Am Specialized In Managing Groups For Communities💫*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 ❍ *Uptime:* `{}`
-❍ `{}` *Users, Across* `{}` *Chats.*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 ➛ Try The Help Button Below To Know My Abilities ××
 """
