@@ -16,7 +16,7 @@ class Config(object):
 
     API_ID = 17441778   # integer value, dont use ""
     API_HASH = "d221a3858d847abbec41da95840b4a64"
-    TOKEN = "5926549446:AAGeZZBBGj_hvlbbtlIqfUnU7XzLDzYcjDM"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    TOKEN = "5965784349:AAHfSaUaiZZczEJbxPMLA0knL-ZVWj3RVWc"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     STRING_SESSION = ""
     MONGO_DB = "Shikimori"
     TEMP_DOWNLOAD_DIRECTORY= "./"
