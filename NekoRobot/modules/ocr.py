@@ -18,11 +18,11 @@ from NekoRobot import http
 @app.on_message(filters.command(["ocr"]))
 @capture_err
 async def ocr(_, message):
-    reply = message.reply_to_message
-    if not reply or not reply.photo and not reply.sticker:
-        return await message.reply_text(f"Reply photo with /{message.command[0]} command")
-    msg = await message.reply("Reading image...")
-    try:
+        reply = message.reply_to_message
+        if not reply or not reply.photo and not reply.sticker:
+            return await message.reply_text(f"Reply photo with /{message.command[0]} command")
+        msg = await message.reply("Reading image...")
+
         file_path = await reply.download()
         if reply.sticker:
             file_path = await reply.download(f"ocr{message.from_user.id}.jpg")
