@@ -16,11 +16,11 @@ from NekoRobot import http
 
 @app.on_message(filters.command(["ocr"]))
 async def ocr(_, message):
-        reply = message.reply_to_message
-        if not reply or not reply.photo and not reply.sticker:
-            return await message.reply_text(f"Reply photo with /{message.command[0]} command")
-        msg = await message.reply("Reading image...")
-
+    reply = message.reply_to_message
+    if not reply or not reply.photo and not reply.sticker:
+        return await message.reply_text(f"Reply photo with /{message.command[0]} command")
+    msg = await message.reply("Reading image...")
+    try:
         file_path = await reply.download()
         if reply.sticker:
             file_path = await reply.download(f"ocr{message.from_user.id}.jpg")
@@ -34,6 +34,7 @@ async def ocr(_, message):
         ).json()
         await msg.edit(f"Hasil OCR:\n<code>{req['text']}</code>")
         os.remove(file_path)
+    except Exception as e:
         await msg.edit(str(e))
         os.remove(file_path)
 
