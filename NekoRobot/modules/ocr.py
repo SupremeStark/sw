@@ -36,7 +36,6 @@ async def ocr(_, message):
         ).json()
         await msg.edit(f"Hasil OCR:\n<code>{req['text']}</code>")
         os.remove(file_path)
-    Exception as e:
         await msg.edit(str(e))
         os.remove(file_path)
 
