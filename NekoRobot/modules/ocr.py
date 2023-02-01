@@ -11,12 +11,10 @@ from pyrogram import filters
 from telegraph import upload_file
 
 from NekoRobot import pgram as app
-from NekoRobot.utils.errors import capture_err
 from NekoRobot import http
 
 
 @app.on_message(filters.command(["ocr"]))
-@capture_err
 async def ocr(_, message):
         reply = message.reply_to_message
         if not reply or not reply.photo and not reply.sticker:
